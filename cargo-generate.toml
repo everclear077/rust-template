@@ -1,0 +1,5 @@
+[template]
+# 只忽略 Liquid 模板处理，不影响文件复制
+exclude = ["cliff.toml"]
+# 如果还有其他含 {{ }} 的文件，比如 GitHub Actions：
+# exclude = ["cliff.toml", ".github/workflows/*.yml"]
